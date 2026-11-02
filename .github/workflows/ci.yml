@@ -26,4 +26,3 @@ jobs:
       - name: Run second job
         run: |
           echo "Runner details: ${{ runner.os }}"
-          echo "Job status: ${{ job.status }}"
